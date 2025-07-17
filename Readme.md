@@ -51,14 +51,16 @@ Edit
 ```bash
 git clone https://github.com/your-username/movie-recommender-system.git
 cd movie-recommender-system
-2. Set Up Environment
-bash
+```
+### 2. Set Up Environment
+```bash
 Copy
 Edit
 python -m venv .venv
 source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-3. Download Dataset from Kaggle
+```
+### 3. Download Dataset from Kaggle
 Download the TMDB 5000 Movie Dataset from Kaggle:
 🔗 https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
 
@@ -70,7 +72,7 @@ data/tmdb_5000_movies.csv
 
 4. Generate Required .pkl Files
 You can either:
-
+```
 ▶ Option A: Run the Jupyter Notebook
 bash
 Copy
@@ -89,9 +91,10 @@ This will generate:
 movie_list.pkl
 
 similarity.pkl
-
+```
 5. Run the App
-bash
+```bash
 Copy
 Edit
 streamlit run app.py
+```
