@@ -13,37 +13,7 @@ A content-based movie recommender system built with **Streamlit**, using data fr
 ---
 
 ## 📁 Project Structure
-
-movie-recommender-system/
-├── app.py # Main Streamlit app
-├── dashboard.py # Dashboard page logic
-├── firebase_auth.py # Firebase authentication code
-├── firebase_util.py # Firebase helper utilities
-├── profile.py # Profile page logic
-├── Home.py # Home page logic
-├── new.py # Misc/testing
-│
-├── data/ # <-- Place raw CSVs here (not committed)
-│ ├── tmdb_5000_credits.csv
-│ └── tmdb_5000_movies.csv
-│
-├── movie_list.pkl # Generated: stores movie id-title mapping
-├── similarity.pkl # Generated: stores similarity matrix
-│
-├── notebooks/
-│ └── Moviesystem.ipynb # Data preprocessing and model generation
-│
-├── generate_similarity.py # (Optional) Script to build .pkl files
-├── requirements.txt
-├── .gitignore
-└── README.md
-
-yaml
-Copy
-Edit
-
----
-
+<pre lang="text"><code>```bash movie-recommender-system/ ├── app.py # Main Streamlit app ├── dashboard.py # Dashboard page logic ├── firebase_auth.py # Firebase authentication code ├── firebase_util.py # Firebase helper utilities ├── profile.py # Profile page logic ├── Home.py # Home page logic ├── new.py # Misc/testing │ ├── data/ # <-- Place raw CSVs here (not committed) │ ├── tmdb_5000_credits.csv │ └── tmdb_5000_movies.csv │ ├── movie_list.pkl # Generated: stores movie id-title mapping ├── similarity.pkl # Generated: stores similarity matrix │ ├── notebooks/ │ └── Moviesystem.ipynb # Data preprocessing and model generation │ ├── generate_similarity.py # Script to generate .pkl files ├── requirements.txt ├── .gitignore └── README.md ```</code></pre>
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
