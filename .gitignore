@@ -1,0 +1,25 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE configs
+.vscode/
+*.code-workspace
+.idea/
+
+# Model / large files
+*.pkl
+
+# Firebase secret (if any)
+firebase_key.json
+
+# Dataset files
+data/*.csv
