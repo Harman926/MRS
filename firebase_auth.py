@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = ""
+API_KEY = "AIzaSyCEwob-fe4ympaNP-1Wpot_SfpH-ncxOyI"
 
 def signup_user(email, password):
     url = f"https://identitytoolkit.googleapis.com/v1/accounts:signUp?key={API_KEY}"
